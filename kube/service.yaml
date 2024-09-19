@@ -11,4 +11,4 @@ spec:
       port: 80         # Cluster IP port
       targetPort: 80   # Port the pod listens on
       nodePort: 30001  # Expose the service on this port on the node
-  type: NodePort       #
+  type: NodePort       
